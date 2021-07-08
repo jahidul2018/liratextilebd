@@ -1,0 +1,75 @@
+/*
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+#mainnav ul li a:hover {
+  text-decoration: inherit;
+  font-size: 25px;
+  /*
+  background-color: #440000;
+  */
+}
+.current-menu-item {
+    background: #440000;
+    padding-top: 5px;
+  	padding-bottom: 5px;
+  	padding-left: 5px;
+  	padding-right: 5px;
+}
+/*
+.roll-client .client-item img:hover {
+	background-color: #440000;
+	padding: 5px;
+}
+*/
+.page header.entry-header {
+  display: none;
+}
+
+div.widget_sydney_testimonials div.customer div.name,
+div.widget_sydney_testimonials div.customer div.name span{
+    color: white !important;
+}
+
+#info1 h3.widget-title, #info2 h3.widget-title, #info3 h3.widget-title {
+	font-size: 24px;
+}
+
+#c1 .widget-title, #c2 .widget-title, #c3 .widget-title {
+	margin-bottom: 10px;
+}
+#c1 .contact-address:hover, #c2 .contact-address:hover, #c3 .contact-address:hover {
+	font-style: italic;
+	font-size: 16px;
+	opacity: 1;
+	transition: all 0.5s ease-in-out 0.1s;
+}
+#c1 .contact-phone:hover, #c2 .contact-phone:hover, #c3 .contact-phone:hover {
+	font-style: italic;
+	font-size: 16px;
+	opacity: 1;
+	transition: all 0.5s ease-in-out 0.1s;
+}
+#c1 .contact-email:hover, #c2 .contact-email:hover, #c3 .contact-email:hover {
+	font-style: italic;
+	font-size: 16px;
+}
+
+div#tab-description > h2 {
+    display: none !important;
+}
+
+#woo_catalog .woo_catalog_enquiry_btn {
+	background-color: #003366;
+}
+#woo_catalog .woo_catalog_enquiry_btn:hover {
+	background-color: #0099cc;
+}
